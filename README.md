@@ -1,2 +1,2 @@
-# Posrtfolio
+# Portfolio
 A simple portfolio design
