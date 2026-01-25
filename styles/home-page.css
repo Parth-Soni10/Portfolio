@@ -1,0 +1,77 @@
+/* Inherits base styles from 'section' in general.css */
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    min-height: 80vh;
+}
+
+.portfolio-image {
+    display: flex;
+    justify-content: center;
+}
+
+.your-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%; /* Circle shape looks cleaner */
+    border: 5px solid rgb(138, 43, 226);
+}
+
+.introduction {
+    /* Removed white background */
+    padding: 0;
+}
+
+.introduction h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.introduction h2 {
+    font-size: 24px;
+    color: rgb(138, 43, 226); /* Purple text */
+    border: none; /* Override default h2 border */
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.short-intro {
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+    margin-bottom: 40px;
+}
+
+/* Buttons */
+.action {
+    display: flex;
+    gap: 20px;
+}
+
+.download, .action a {
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.download {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(138, 43, 226);
+}
+
+.action a {
+    background-color: rgb(138, 43, 226);
+    color: white;
+    border: 2px solid rgb(138, 43, 226);
+}
+
+.download:hover, .action a:hover {
+    transform: translateY(-3px);
+}

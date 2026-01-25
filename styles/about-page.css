@@ -1,0 +1,48 @@
+/* Inherits base styles from 'section' in general.css */
+.about-page {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; /* Text wider than image */
+    gap: 50px;
+    align-items: center;
+}
+
+.about-text h3 {
+    color: rgb(138, 43, 226);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.about-text p {
+    line-height: 1.8;
+    color: rgb(200, 200, 200);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.stats-box {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.stats-box div {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.label {
+    color: rgb(138, 43, 226);
+    font-size: 14px;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}

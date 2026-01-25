@@ -1,0 +1,43 @@
+.header {
+    /* 1. Stick to the very top edge */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of everything */
+
+    /* 2. Span the full width of the screen */
+    width: 100%; 
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+    
+    /* 3. Solid background to block content behind it */
+    background-color: rgb(35, 35, 35); 
+    
+    /* 4. Alignment */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* 5. Spacing - Padding matches your page margins (5% on sides) */
+    padding: 20px 5%;
+    
+    /* Optional: Add a shadow so you know where the header ends */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.links a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: rgb(138, 43, 226); /* Purple hover */
+}
