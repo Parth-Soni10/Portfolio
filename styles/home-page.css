@@ -1,4 +1,3 @@
-/* Inherits base styles from 'section' in general.css */
 .hero-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,12 +15,11 @@
     width: 350px;
     height: 350px;
     object-fit: cover;
-    border-radius: 50%; /* Circle shape looks cleaner */
+    border-radius: 50%;
     border: 5px solid rgb(138, 43, 226);
 }
 
 .introduction {
-    /* Removed white background */
     padding: 0;
 }
 
@@ -32,8 +30,8 @@
 
 .introduction h2 {
     font-size: 24px;
-    color: rgb(138, 43, 226); /* Purple text */
-    border: none; /* Override default h2 border */
+    color: rgb(138, 43, 226);
+    border: none;
     padding: 0;
     margin-bottom: 20px;
 }
@@ -44,7 +42,6 @@
     margin-bottom: 40px;
 }
 
-/* Buttons */
 .action {
     display: flex;
     gap: 20px;
