@@ -1,7 +1,6 @@
-/* Inherits base styles from 'section' in general.css */
 .about-page {
     display: grid;
-    grid-template-columns: 1.5fr 1fr; /* Text wider than image */
+    grid-template-columns: 1.5fr 1fr; 
     gap: 50px;
     align-items: center;
 }
