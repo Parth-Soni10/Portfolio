@@ -1,6 +1,3 @@
-/* Inherits base styles from 'section' in general.css */
-
-/* Grid for skill cards */
 .skills {
     display: flex;
     flex-direction: column;
@@ -11,7 +8,7 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    background-color: rgb(45, 45, 45); /* Slightly lighter inner card */
+    background-color: rgb(45, 45, 45);
     padding: 20px;
     border-radius: 20px;
     border: 1px solid rgb(60, 60, 60);
@@ -21,7 +18,7 @@
     background-color: white;
     padding: 10px;
     border-radius: 15px;
-    flex-shrink: 0; /* Prevents image from shrinking */
+    flex-shrink: 0;
 }
 
 .domain-img {
