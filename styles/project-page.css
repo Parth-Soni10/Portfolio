@@ -1,5 +1,3 @@
-/* Inherits base styles from 'section' in general.css */
-
 .project-grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
